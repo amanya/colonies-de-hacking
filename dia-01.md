@@ -108,8 +108,9 @@ El terminal té diverses funcions interessants:
 * Tancar una pestanya: `SHIFT` + `CTRL` + `W`
 * Copiar text: `SHIFT` + `CTRL` + `C`
 
-> [!NOTE] Com és que hem de fer servir `SHIFT` + `CTRL` + `C` per enganxar text
-> i no simplement `CTRL` + `C` com a tot arreu? Perquè `CTRL` + `C` és una
+> [!NOTE]
+> Com és que hem de fer servir `SHIFT` + `CTRL` + `C` per enganxar text i no
+> simplement `CTRL` + `C` com a tot arreu? Perquè `CTRL` + `C` és una
 > combinació de tecles especial que serveix per interrompre un programa.
 
 * Enganxar text: `SHIFT` + `CTRL` + `V`
