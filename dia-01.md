@@ -124,6 +124,68 @@ tipus de lletra, els colors, etc.
 
 ### L'arbre de directoris
 
+Hem dit que el símbol `~` es refereix al nostre directory personal o `HOME`.
+Anem a veure com funciona l'arbre de directoris. S'anomena arbre perquè una
+carpeta en pot contenir d'altres, de la mateixa manera que d'una branca en
+poden sortir d'altres.
+
+Quan iniciem el terminal per primera vegada, ens situarà per defecte dins del
+directori `HOME`. Vols saber quins fitxers i carpetes conté el directory
+`HOME`? Hauràs d'executar una comanda per saber-ho:
+
+```
+$ ls
+```
+
+En el quadre anterior, faig servir el símbol `$` per indicar que has d'executar
+una comanda a la línia d'ordres. En aquest cas, la comanda és `ls`. Quan ho
+facis i després d'apretar `Enter`, veuràs un resultat com el següent:
+
+```
+$ ls
+Downloads
+Desktop
+un-fitxer-qualsevol.txt
+```
+
+Normalment els text dels directoris és d'un color com ara blau i els arxius
+normals de color blanc.
+
+Com ho podem per veure els fitxers que estan dins del directori `Desktop`?
+
+```
+$ ls Desktop/
+Fotos_colònies_2023
+el-meu-fitxer-1.txt
+el-meu-fitxer-2.txt
+```
+
+El caràcter `/` al final del nom del directory no cal posar-lo, però si fem
+servir l'auto-completat per no haver descriure tant, ens el posarà
+automàticament.
+
+Auto-comple-què? L'auto-completat, és una de les funcionalitats més útils del
+terminal, juntament amb la història. Fes la prova, escriu `ls Desk` i apreta la
+tecla `Tab`. Si el directori `Desktop` existeix, veuràs que el text que falta
+s'escriurà sol.
+
+Ja que ho anomenes, la història què és? Descobreix-ho tu mateix: apreta `CTRL`
++ `P` (`P` de previ) i veuràs que hi haurà la comanda que has executat
+anteriorment al prompt, a punt per tornar-se a executar. Per mostrar la
+comanda següent has d'apretar `CTRL` + `N` (`N` de next).
+
+Tornem al caràcter `/` que ens ha posat l'auto-completat després del directori,
+s'anomena "separador de camí" (path separator). Serveix per separar diferents
+parts del "camí" que recorrem fins arribar a un directori o fitxer. Per
+exemple:
+
+```
+$ ls ~/Desktop/Fotos_colònies_2023/piscina1.jpeg
+```
+
+A partir del directori `~` travessem `Desktop`, `fotos_colònies_2023` i
+finalment el fitxer `piscina1.jpeg`.
+
 ### Algunes comandes per començar a fer servir la línia d'ordres
 
 ### L'editor de text
