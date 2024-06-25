@@ -15,16 +15,16 @@ Finalment m'agradaria introduir-vos a algunes eines que fan servir els hackers
 professionals com ara Git i [GitHub](https://github.com), la xarxa social per
 programadors.
 
-Per facilitar-vos la vida (i jo no haver d'escriure tant), jo ja hauré
-instal·lat una sèrie de coses necessàries per seguir el curs a l'ordinador que
-fareu servir. Les llisto a continuació per tenir-ne una referència:
+Per facilitar-vos la vida (i jo no haver d'escriure tant), ja hauré instal·lat
+una sèrie de coses necessàries per seguir el curs a l'ordinador que fareu
+servir. Les llisto a continuació per tenir-ne una referència:
 
-  * Sistema operating: GNU/Linux
-  * Distribució: Ubuntu 24.04
-  * Entorn de finestres: Gnome
-  * Unix Shell: zsh (amb Oh My Zsh) 
-  * Editor de text: NeoVim (amb [kickstart.vim](https://github.com/amanya/kickstart.nvim))
-  * raylib instal·lada des del codi font fent servir CMake
+  * Sistema operatiu: **GNU/Linux**
+  * Distribució: **Ubuntu 24.04**
+  * Entorn de finestres: **Gnome**
+  * Unix Shell: **zsh (amb Oh My Zsh)** 
+  * Editor de text: **NeoVim (amb [kickstart.vim](https://github.com/amanya/kickstart.nvim))**
+  * **raylib** instal·lada des del codi font fent servir CMake
 
 ## Índex
 
