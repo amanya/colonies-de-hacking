@@ -102,6 +102,25 @@ següent caràcter.
 El símbol `~` és un sinònim per al directori `HOME`, la carpeta a partir de la
 qual desarem els nostres arxius personals.
 
+El terminal té diverses funcions interessants:
+
+* Obrir una nova pestanya (igual que un navegador web): `SHIFT` + `CTRL` + `T`
+* Tancar una pestanya: `SHIFT` + `CTRL` + `W`
+* Copiar text: `SHIFT` + `CTRL` + `C`
+
+> [!NOTE] Com és que hem de fer servir `SHIFT` + `CTRL` + `C` per enganxar text
+> i no simplement `CTRL` + `C` com a tot arreu? Perquè `CTRL` + `C` és una
+> combinació de tecles especial que serveix per interrompre un programa.
+
+* Enganxar text: `SHIFT` + `CTRL` + `V`
+* Moure's a la següent pestanya: `CTRL` + `PgDown`
+* Moure's a l'anterior pestanya: `CTRL` + `PgUp`
+* Fer el text més gran: `CTRL` + `+`
+* Fer el text més petit: `CTRL` + `-`
+
+Obrint la configuració podem configurar moltes coses, com ara la mida i el
+tipus de lletra, els colors, etc.
+
 ### L'arbre de directoris
 
 ### Algunes comandes per començar a fer servir la línia d'ordres
