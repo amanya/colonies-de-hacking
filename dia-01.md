@@ -62,13 +62,27 @@ Per obrir el terminal fem el mateix però escribim "terminal".
 
 ### El terminal
 
-El [terminal](https://ca.wikipedia.org/wiki/Terminal_d%27ordinador) o [línia
-d'ordres](https://ca.wikipedia.org/wiki/L%C3%ADnia_d%27ordres) simplement
-"pantalla negra| és una eina per comunicar-nos amb el sistema operatiu fent
+L'emulador de terminal,
+[terminal](https://ca.wikipedia.org/wiki/Terminal_d%27ordinador) o simplement
+"pantalla negra" és una eina per comunicar-nos amb el sistema operatiu fent
 servir el teclat i comandes de text (al contrari que si fem servir el ratolí
 per comunicar-nos fent servir l'entorn d'escriptori).
 
-Quan iniciem el terminal, ens mostra un indicador (prompt en anglès) on podem
-començar a escriure.
+El terminal que farem servir és el Gnome Terminal, que forma part de l'entorn
+d'escriptori Gnome. Evidentment, n'hi ha molts d'altres. També podem trobar
+terminals en Windows i MacOS.
+
+Quan iniciem el terminal, el primer que fa és executar un intèrpret d'ordres,
+un programa capaç d'entendre certes comandes que li escribim a l'indicador
+(prompt en anglès). En el nostre cas, el promt només conté una fletxa (➜), el
+símbol `~` i el cursor (un quadradet que es mou per indicar on escriurem el
+següent caràcter.
+
+El símbol `~` és un sinònim per al directori `HOME`, la carpeta a partir de la
+qual desarem els nostres arxius personals.
+
+### L'arbre de directoris
+
+### Algunes comandes per començar a fer servir la línia d'ordres
 
 ### L'editor de text
