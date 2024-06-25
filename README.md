@@ -1,6 +1,6 @@
 # Colònies de Hacking
 
-Aquest curs vol ser una introducció fàcil i divertida a la programació i el
+Aquest curs és ser una introducció fàcil i divertida a la programació i el
 funcionament dels ordinadors.
 
 Aprendrem a fer anar un ordinador amb un sistema operatiu GNU/Linux,
@@ -11,13 +11,11 @@ Farem alguns programes fent servir el llenguatge de programació C i
 [raylib](https://www.raylib.com/), la llibreria *senzilla i fàcil de fer servir
 per gaudir de la programació de vídeo-jocs*.
 
-Finalment m'agradaria introduir-vos a algunes eines que fan servir els hackers
-professionals com ara Git i [GitHub](https://github.com), la xarxa social per
-programadors.
+També coneixerem algunes eines que fan servir els hackers professionals com ara
+Git i [GitHub](https://github.com), la xarxa social per programadors.
 
 Per facilitar-vos la vida (i jo no haver d'escriure tant), ja hauré instal·lat
-una sèrie de coses necessàries per seguir el curs a l'ordinador que fareu
-servir. Les llisto a continuació per tenir-ne una referència:
+al vostre ordinador el necessari per seguir el curs:
 
   * Sistema operatiu: **GNU/Linux**
   * Distribució: **Ubuntu 24.04**
