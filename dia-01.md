@@ -41,7 +41,7 @@ han aparegut diferentes maneres d'instal·lar-lo, anomenades *distribucions*.
 Segurament la distribució més popular és [Ubuntu](https://ubuntu.com/) i és la
 que teniu instal·lada al vostre ordinador.
 
-[^1]: GNU és l'acrònim recursiu de GNU is Not Unix, aparentment fa molta gràcia als hackers 🤷.
+[^1]: GNU és l'[acrònim recursiu](https://ca.wikipedia.org/wiki/Acr%C3%B2nim_recursiu) de GNU is Not Unix, aparentment fa molta gràcia als hackers 🤷.
 [^2]: Carpeta.
 
 ### L'entorn d'escriptori
