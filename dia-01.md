@@ -160,6 +160,11 @@ el-meu-fitxer-1.txt
 el-meu-fitxer-2.txt
 ```
 
+El text que posem després de la comanda `ls` l'anomenem "paràmetre" i el fem
+servir per modificar el comportament de la comanda o per passar-li informació
+adicional. En aquest cas, el paràmetre és el nom del directori i serveix per
+indicar a `ls` que ens mostri el contingut del directori `Desktop`
+
 El caràcter `/` al final del nom del directory no cal posar-lo, però si fem
 servir l'auto-completat per no haver descriure tant, ens el posarà
 automàticament.
@@ -185,6 +190,96 @@ $ ls ~/Desktop/Fotos_colònies_2023/piscina1.jpeg
 
 A partir del directori `~` travessem `Desktop`, `fotos_colònies_2023` i
 finalment el fitxer `piscina1.jpeg`.
+
+Ara, introduim un altre concepte: el directori de treball. Ja hem dit que quan
+obrim el terminal, el directori de treball serà el `HOME`. Si volem saber quin
+és el directori de treball fem servir la comanda `pwd` (print working
+directori)
+
+```
+$ pwd
+/home/albert
+```
+
+Vaja, `pwd` ens ha mostrat `/home/albert` i no `~` com havíem dit? Això és
+perquè `~` en realitat és un "alies", un sinònim de `/home/albert`.
+
+En realitat, l'arbre de directoris no comença al nostre directori personal,
+sino a l'arrel de l'arbre, a la qual ens podem referir com a `/`.
+
+A partir d'aquí, podem començar a pujar per l'arbre. El primer directori que
+trobem abans d'arribar al nostre personal és un directori anomenat `home` i
+dins de `home` i han tots els directoris personals dels usuaris, com ara
+`albert`.
+
+Un parell de conceptes nous més: "camí (path) absolut" i "camí relatiu". Tenim
+un camí absolut quan el nostre camí comença per `/`. Sigui quin sigui el nostre
+directory de treball, si utilitzem un camí absolut, arribarem on volem arribar.
+Per exemple, suposem que el nostre directori de treball és `~/Desktop`:
+
+```
+$ pwd
+/home/albert/Desktop
+```
+
+Si volem llistar el contingut del directory `Downloads` situat a
+`/home/albert`, hem de fer servir un camí absolut i escriure:
+
+```
+$ ls /home/albert/Downloads
+```
+
+Per contra, tenim un camí relatiu quan el nostre camí no comença per `/`. Per
+exemple, suposem que estem a `~`, podem llistar el continugt de `Desktop` fent
+servir un camí relatiu:
+
+```
+$ pwd
+/home/albert
+$ ls Desktop
+```
+
+En canvi, si el nostre directori de treball és `/home/albert/Desktop` i fem
+servir un camí relatiu per llistaar el contingut de `Downloads`, obtindrem un
+error perquè el directori no existeix:
+
+```
+$ pwd
+/home/albert/Desktop
+$ ls Downloads
+ls: Downloads: No such file or directory
+```
+
+> [!NOTE]
+> Pot ser que el missatge d'error ens surti en català depenent com tinguem
+> configurada la llengua del sistema.
+
+Anem acabant: a cada directori hi han dos directoris especials: `.` i `..`. `.`
+fa referència al directori mateix i `..` al directori pare.
+
+Per exemple, imaginem que el nostre directori de treball és `/home/albert/Desktop` i volem llistar el contingut del directori `~`. Podem fer servir un camí absolut:
+
+```
+$ pwd
+/home/albert/Desktop
+$ ls /home/albert
+```
+
+O bé podem fer servir un camí relatiu fent servir `..`:
+
+```
+$ pwd
+/home/albert/Desktop
+$ ls .. 
+```
+
+O si volem llistar el contingut de `Downloads`:
+
+```
+$ pwd
+/home/albert/Desktop
+$ ls ../Downloads 
+```
 
 ### Algunes comandes per començar a fer servir la línia d'ordres
 
