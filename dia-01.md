@@ -41,22 +41,43 @@ han aparegut diferentes maneres d'instal·lar-lo, anomenades *distribucions*.
 Segurament la distribució més popular és [Ubuntu](https://ubuntu.com/) i és la
 que teniu instal·lada al vostre ordinador.
 
-[^1]: GNU és l'[acrònim recursiu](https://ca.wikipedia.org/wiki/Acr%C3%B2nim_recursiu) de GNU is Not Unix, aparentment fa molta gràcia als hackers 🤷.
+[^1]: GNU és l'[acrònim
+    recursiu](https://ca.wikipedia.org/wiki/Acr%C3%B2nim_recursiu) de GNU is
+    Not Unix, aparentment fa molta gràcia als hackers 🤷.
+
 [^2]: Carpeta.
 
 ### L'entorn d'escriptori
 
-L'[entorn d'escriptori](https://ca.wikipedia.org/wiki/Entorn_d%27escriptori) és el conjunt de programes que ofereixen una iterfície gràfica a l'usuari d'un ordinador, en resum: dibuixa les finestres, els botons, les caixes de text, etc, i li dona un aspecte homogeni permetent personalitzar-lo. Per exemple, si posem el mode fosc, totes les finestres passen a dibuixar-se utilitzant els colors del mode fosc. Això és responsabilitat de l'entorn d'escriptori.
+L'[entorn d'escriptori](https://ca.wikipedia.org/wiki/Entorn_d%27escriptori) és
+el conjunt de programes que ofereixen una iterfície gràfica a l'usuari d'un
+ordinador, en resum: dibuixa les finestres, els botons, les caixes de text,
+etc, i li dona un aspecte homogeni permetent personalitzar-lo. Per exemple, si
+posem el mode fosc, totes les finestres passen a dibuixar-se utilitzant els
+colors del mode fosc. Això és responsabilitat de l'entorn d'escriptori.
 
-Una conseqüència del codi lliure, és que sovint hi han diferents maneres de solucionar un problema. Ja hem vist que hi ha diferents distribucions, però també hi ha diferents editors de text, programes de dibuix, etc. També tenim més d'un entorn d'escriptori.
+Una conseqüència del codi lliure, és que sovint hi han diferents maneres de
+solucionar un problema. Ja hem vist que hi ha diferents distribucions, però
+també hi ha diferents editors de text, programes de dibuix, etc. També tenim
+més d'un entorn d'escriptori.
 
-L'entorn d'escriptori que ve per defecte amb Ubuntu es diu [Gnome](https://www.gnome.org/).
+L'entorn d'escriptori que ve per defecte amb Ubuntu es diu
+[Gnome](https://www.gnome.org/).
 
-En aquest curs no entrarem en gaires detalls de com funciona però si que necessitarem fer una cosa: executar programes, concreatament el navegador web i el terminal.
+En aquest curs no entrarem en gaires detalls de com funciona però si que
+necessitarem fer una cosa: executar programes, concreatament el navegador web i
+el terminal.
 
-Per fer-ho, un cop haguem fet *login* fent servir la nostra compta d'usuari (nom i contrassenya), veurem l'escriptori de Gnome. En aquest moment simplement hem d'apretar la tecla Windows (la que té uns quadradets). En Linux aquesta tecla s'anomena `Super`.
+Per fer-ho, un cop haguem fet *login* fent servir la nostra compta d'usuari
+(nom i contrassenya), veurem l'escriptori de Gnome. En aquest moment simplement
+hem d'apretar la tecla Windows (la que té uns quadradets). En Linux aquesta
+tecla s'anomena `Super`.
 
-Quan ho fem, ens mostra totes les aplicacions que tenim obertes i també fa aparèixer un quadre de text. En aquest moment podem començar a escriure el nom de l'aplicació que volem obrir, per exemple "firefox". Només cal que escriguem les primeres lletres i veurem que ja ens apareix com a primer resultat. Apretem `Enter` i s'obrirà.
+Quan ho fem, ens mostra totes les aplicacions que tenim obertes i també fa
+aparèixer un quadre de text. En aquest moment podem començar a escriure el nom
+de l'aplicació que volem obrir, per exemple "firefox". Només cal que escriguem
+les primeres lletres i veurem que ja ens apareix com a primer resultat. Apretem
+`Enter` i s'obrirà.
 
 Per obrir el terminal fem el mateix però escribim "terminal".
 
@@ -74,7 +95,7 @@ terminals en Windows i MacOS.
 
 Quan iniciem el terminal, el primer que fa és executar un intèrpret d'ordres,
 un programa capaç d'entendre certes comandes que li escribim a l'indicador
-(prompt en anglès). En el nostre cas, el promt només conté una fletxa (➜), el
+(prompt en anglès). En el nostre cas, el prompt només conté una fletxa (➜), el
 símbol `~` i el cursor (un quadradet que es mou per indicar on escriurem el
 següent caràcter.
 
