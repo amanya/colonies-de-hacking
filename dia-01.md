@@ -293,4 +293,42 @@ $ ls ../Downloads
 
 ### Algunes comandes per començar a fer servir la línia d'ordres
 
+#### `cd`: Canvia el directori de treball
+
+* Ves a `HOME`:
+```
+$ cd ~
+$ pwd
+/home/albert
+```
+
+* Canvi de directori fent servir un camí relatiu:
+```
+$ cd Desktop
+```
+
+* Canvi de directori fent servir un camí absolut:
+```
+$ cd /home
+```
+
+#### `mkdir`: Crea un directori
+
+```
+$ mkdir el-meu-dir
+$ ls
+el-meu-dir
+$ cd el-meu-dir
+```
+
+#### `rmdir`: Esborra un directori
+
+```
+$ rmdir el-meu-dir
+```
+
+> [!NOTE]
+> El directori que vols esborrar ha d'estar buit (no pot contenir cap fitxer o
+> carpeta).
+
 ### L'editor de text
