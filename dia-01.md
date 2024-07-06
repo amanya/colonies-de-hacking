@@ -332,3 +332,71 @@ $ rmdir el-meu-dir
 > carpeta).
 
 ### L'editor de text
+
+L'editor de text és un dels programes que fa servir més un hacker. Serveix per
+escriure els programes d'una manera ràpida i eficient però també el pots fer
+servir per escriure qualsevol cosa: des de les instruccions de com fer servir
+el darrer programa que has escrit (això s'anomena documentació) fins al teu
+diari personal.
+
+Els editors de text que fan servir els hackers, tenen una característica
+important: només poden treballar amb [text
+pla](https://ca.wikipedia.org/wiki/Text_pla). Anomenem text pla al text format
+només per caràcters sense format. Això vol dir que en un arxiu de text pla, no
+hi podem indicar coses com el color del text ni la mida ni tampoc hi podem
+posar taules o imatges.
+
+Però no et preocupis perquè a poc a poc aniràs descobrint que treballar amb
+fitxers de text pla te moltes avantatges i a més a més, veuràs com l'editor de
+text pot entendre el codi que escrius i posar-li automàticament colors per
+fer-lo més fàcil de llegir. I també t'ensenyaré com pots crear documents amb
+format (títols, subtítols, negreta, taules, etc) com aquest que estàs llegint
+fent servir només text pla.
+
+L'editor de text que faràs servir durant les colònies s'anomena
+[Neovim](https://neovim.io/). Neovim és un editor que està basat en un editor
+anterior anomenat [Vim](https://www.vim.org/). Vim vol dir "vi improved". Què
+vol dir [vi](https://ca.wikipedia.org/wiki/Vi_(UNIX))? Doncs és un altre editor
+anterior que es va crear l'any 1976 que al mateix temps estava basat en altres
+editor més antics. Ja veus que aquí s'aprofita tot.
+
+> [!NOTE]
+
+> Potser hi haurà gent que si veu que t'ensenyo a fer servir un editor com *Vi*
+> alertarà serveis socials per sospites de maltractament a menors, però jo no
+> hi estic d'acord; per diverses raons. És veritat que Vi no és un editor fàcil
+> de fer servir ni de configurar, però tan sols necessites aprendre quatre
+> coses bàsiques per començar a treure-li el suc.
+>
+> Les comandes bàsiques de Vi son tan útils que tots els editors considerats
+> més moderns ofereixen un "mode Vi" on les podràs fer servir. Per tant aquest
+> coneixement et servirà sempre.
+>
+> Una altra cosa que m'agrada de Vim i Neovim és que son editors programables.
+> Els dos incorporen un llenguatge de programació integrat garantitzant hores i
+> hores de diversió sense límits.
+
+La caracteristica més important dels editors tipus `Vi` és que son "modals".
+Modal vol dir que té diversos modes de funcionament: normal, inserció, comandes
+o visual.
+
+Petit resum dels modes de Vi:
+
+* **Normal**: És el mode que trobes quan llançem Vi. És el mode on et passes
+  més estona doncs et permet navegar pel text, copiar/retallar/enganxar
+  caracters, paraules o línies, fer i desfer i molt més. Apreta `Esc` per
+  tornar al mode normal des de qualsevol altre mode.
+
+* **Inserció**: És el mode que ens permet escriure el text, com fariem en
+  qualsevol altre editor. Hi han tres maneres d'accedir-hi:
+  * `i` (insert): accedeix directament al mode d'inserció
+  * `a` (afegir): accedeix al mode d'inserció i mou el cursor al següent
+    caracter
+  * `o` (obrir): accedeix al mode d'inserció i afegeix una línia nova sota on
+    és el cursor
+
+* **Comandes**: És una manera d'executar comandes més complexes que les que
+  podem fer al mode Normal. Per accedir-hi apreta `:` des del mode Normal
+
+* **Visual**: Serveix per seleccionar àrees de text i transformar-lo de
+  diverses maneres.
