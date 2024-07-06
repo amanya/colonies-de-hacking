@@ -361,7 +361,6 @@ anterior que es va crear l'any 1976 que al mateix temps estava basat en altres
 editor més antics. Ja veus que aquí s'aprofita tot.
 
 > [!NOTE]
-
 > Potser hi haurà gent que si veu que t'ensenyo a fer servir un editor com *Vi*
 > alertarà serveis socials per sospites de maltractament a menors, però jo no
 > hi estic d'acord; per diverses raons. És veritat que Vi no és un editor fàcil
