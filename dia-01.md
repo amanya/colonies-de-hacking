@@ -399,3 +399,88 @@ Petit resum dels modes de Vi:
 
 * **Visual**: Serveix per seleccionar àrees de text i transformar-lo de
   diverses maneres.
+
+#### Escriu un programa amb Neovim
+
+1. Comença al terminal, escriu la següent comanda:
+```
+$ nvim hello.c
+```
+
+2. Ara ets dins de *Neovim*. Apreta `i` per entrar en mode d'inserció i escriu
+   el següent programa (no et preocupis si no entens què fa, ho veurem més
+   endavant):
+```c
+#include <stdio.h>
+
+int main(int argc, char* argv[]) {
+    printf("Hello, world!\n");
+}
+```
+
+3. Ara has de desar el codi. Apreta `Esc` per assegurar-te que ets al mode
+   normal. Apreta `:` per entrar al mode comandes. Escriu `w` (de write) i
+   apreta `Enter`. Ara el codi estarà desat a l'arxiu `hello.c`.
+
+4. Ara hem de sortir de *Neovim*. Per fer-ho, entra al mode comandes un altre
+   cop (`:`) i escriu `q` (de quit). Quan apretis `Enter`, *Neovim* es tancarà
+   i et trobaràs un altre cop a la línia de comandes.
+
+### Compilar un programa C
+
+Ja que t'has pres la molèstia d'escriure el programa `hello.c`, t'explicaré com
+ho pots fer per executar-lo i fer que l'ordinador escrigui "Hello, world!" al
+terminal.
+
+Més endavant t'ho explicaré amb més detall, però de moment, escriu el següent a
+la línia de comandes (assegura't que estàs al mateix directori de treball que
+el fitxer `hello.c`):
+
+```
+$ cc hello.c -o hello
+```
+
+Si fas `ls` veuràs que s'ha creat un nou fitxer anomenat `hello`. Aquest fitxer
+el pots executar:
+
+```
+$ ./hello
+Hello, world!
+```
+
+### Més comandes interessants per la línia de comandes
+
+Ara que saps com crear fitxers, t'explicaré algunes comandes més. 
+
+#### `cat`: Mostra el contingut d'un fitxer
+
+```
+$ cat hello.c
+#include <stdio.h>
+
+int main(int argc, char* argv[]) {
+    printf("Hello, world!\n");
+}
+```
+
+#### `file`: Indica el tipus de fitxer
+
+```
+$ file hello.c
+hello.c: C source, ASCII text
+```
+
+`file` t'indica que `hello.c` és un fitxer de text que conté codi del
+llenguatge de programació C. [ASCII](https://ca.wikipedia.org/wiki/ASCII) és
+una norma que defineix la manera de representar el text en els ordinadors.
+
+Ara prova-ho amb el fitxer executable que hem creat abans:
+
+```
+$ file hello
+hello: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dinamycally linked, interpreter /lib64/ld-linux-x86-64.so.2, [...]
+```
+
+Uau! Molta informació, però bàsicament ens indica que és un fitxer executable
+per Linux. Si compilessis el mateix programa en un Mac o en un Windows, ens
+indicaria quelcom diferent.
